@@ -1,0 +1,21 @@
+.parent{
+    font-size: 40px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.child-one{
+    background-color: cadetblue;
+}
+.child-two{
+    background-color: coral;
+}
+.child-three{
+    background-color: darkolivegreen;
+}
+.wrapper{
+    padding: 30px;
+}
+img{
+    float: left;
+    margin-right: 50px;
+}

@@ -1,0 +1,48 @@
+.headline{ 
+    padding: 5px;
+    background-color: rgb(90, 90, 90);
+    height: 150 px;
+    
+}
+.location{
+    font-size: 10px;
+    color: rgb(172, 172, 172);
+}
+.content {
+    padding: 10px;
+    background-color: lightgray;
+    overflow: auto;
+    
+}
+.left{
+    width: 47%;
+    float: left;
+    
+}
+h3 {
+    border-bottom: 3px solid black;
+}
+.right{
+    width: 47%;
+    float:right;
+    
+}
+.user-profile{
+    width: 600px;
+    height: 500px;
+    box-shadow: 700px;
+    position: relative;
+}
+.name{
+    font-size: 25px;
+   top: 0px;
+   left: 10px;
+}
+.avatar{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+    height: 75px;
+    
+}

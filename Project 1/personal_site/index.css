@@ -1,0 +1,41 @@
+.luis{
+    color: #d9d4db;
+    font-family: 'Mukta', sans-serif;
+    font-size: 65px;
+    width: 700px;
+    margin-left: 28%;
+}
+.jung{
+    color: #8e8d8d;
+    font-size: 50px;
+    width: 900px;
+    margin-left: 20%;
+    font-family: 'Crimson Text', serif;
+    
+}
+.carl{
+    color:  white;
+    text-align: right;
+    font-size: 30px;
+    width: 550px;
+    margin-left: 20%;
+    font-family: 'Crimson Text', serif;
+}
+.awaken{
+    color: rgb(59, 185, 185);
+    text-decoration: underline .5px;
+    font-family: 'Crimson Text', serif;
+}
+
+.dream{
+    color:rgb(59, 185, 185);
+    font-family: 'Crimson Text', serif;
+}
+.enlightment{
+    display: inline;
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 0px;
+    
+}

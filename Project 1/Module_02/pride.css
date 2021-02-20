@@ -1,0 +1,40 @@
+h1  {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.it{
+    color: #32856f;
+    font-family: "Ubuntu";
+    font-size: x-large;
+}
+.however{
+    color: #75101b;
+    font-family: "Coda Caption";
+    font-size: 1em;
+}
+
+.my{
+    color: grey;
+    font-family: monospace;
+    font-size: 3cm;
+
+}
+
+.mr{
+    color: #682626;
+    font-family: "Lobster";
+    font-size: 5em;
+}
+
+.but{
+    color: #AFAF4F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 53px;
+    
+}
+.mr2{
+    color:lightgreen;
+    font-family: helvetica;
+    font-size: 15vh;
+}

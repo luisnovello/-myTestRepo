@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Mukta:wght@800&display=swap');
+
+/* 
+font-family: 'Crimson Text', serif; -body
+ font-family: 'Mukta', sans-serif;  -header */
+body{
+    background-color:#111111;
+}
+
+header{
+    color: whitesmoke;
+    background-color: #39084a;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+}
+
+#home{
+    margin-right: 75px;
+}
+#portfolio{
+    margin-left: 75px;
+}
+footer{
+    color: whitesmoke;
+    background-color: #39084a;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+.foot{
+    height: 50px;
+    width: 50px;
+    padding-right: 30px;
+    
+}

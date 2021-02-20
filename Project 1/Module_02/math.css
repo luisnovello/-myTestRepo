@@ -1,0 +1,21 @@
+.math-card{
+    background-color: orangered;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 40px;
+    text-align: right;
+}
+.first-term{
+    margin: 10px;
+}
+.second-term{
+    margin: 10px;
+    text-align: left;
+}
+.result{
+    margin: 10px;
+    border-top: solid 5px;
+    font-weight: bold;
+}
