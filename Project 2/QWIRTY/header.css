@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+}
+.main-nav{
+    display: flex;
+    background-color:#255;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    border-right: white solid 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.nav-list li:last-of-type a{
+    border-right: none;
+}
+.full-width{
+    display: none;
+}
+.short-width{
+    display: flex;
+}
+.sub-nav{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.company-name{
+    margin-left: 75px;
+    margin-right: 50px;
+    width: 150;
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline #255 5px;
+}
+.search-form{
+    display: flex;
+    height: 30;
+    width: 500px;
+}
+.input{
+    display: flex;
+    width: 500px;
+    margin-right: -1px;
+    border-top:none;
+    border-left: none;
+    border-bottom: #255 solid 2px;
+    border-right: #255 solid 2px;
+}
+button.submit{
+    background-color:#255;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+.credit-offer{
+    margin-right: 20px;
+    background-color: rgb(180, 2, 2);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.list:hover{
+    border-bottom: white solid 1px;
+}
+@media screen and (min-width:768px){
+    .full-width{
+        display: flex;
+    }
+    .short-width{
+        display: none;
+    }
+}

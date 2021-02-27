@@ -1,0 +1,83 @@
+body{
+    font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0;
+}
+.main{
+    padding: 10px;
+    margin-left: 3rem;
+}
+.navbar{
+    background-color: rgb(241, 99, 125);
+    height: 100vh;
+    /* rem: root element, a multiplier to your font size of your root elemt */
+    flex: 1 0 5rem; /* 5 rem is 5 times font size; 5*16=80*/
+}
+svg{
+    width: 40px;   
+}
+.link-text{
+    display: none;
+    text-decoration: none;
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.nav-link{
+    margin-bottom: 3rem;
+    text-decoration: none;
+}
+.nav-link:first-child svg{
+    color: blue;
+}
+.nav-link:last-child{
+    margin-top: auto;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: red;
+        flex-direction: column-reverse;
+    }
+    .navbar{
+        width: 100vw;
+        height: 5rem;
+        position: fixed;
+        bottom: 0px;
+    }
+    .nav-container{
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    
+}
+@media screeen and (min-width:600px){
+    .nav-container:hover{
+        width: 16rem;
+
+    }
+}
+
+/* .flex{
+    display: flex;
+}
+.blue, .red, .green{
+    height: 50px;
+    width: 100%;
+}
+
+.blue{
+    background-color: blue;
+    flex: 1;
+}
+.red{
+    background-color: red;
+    flex: 2;
+}
+.green{
+    background-color: green;
+    flex: 1; */
+

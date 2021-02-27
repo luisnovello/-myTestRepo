@@ -1,0 +1,51 @@
+body{
+    font-size: 20px;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+main{
+    display: flex;
+    flex: 1;
+}
+nav{
+    background-color: lightgrey;
+    flex: 0 0 10rem;
+    display: flex;
+    flex-direction: column;    
+}
+a{
+    background-color: green;
+    display: flex;
+    margin: 10px;
+    text-transform: capitalize;
+    padding: 5px;
+    justify-content: center;
+    font-weight: bold;
+}
+aside{
+    flex: 0 0 3rem;
+    background-color: lightgrey;
+}
+.ADVERTISING{
+    background-color: lime;
+}
+header{
+    background-color: darkgray;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+}
+main{
+    background-color: grey;
+}
+footer{
+    background-color: darkgray;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+}

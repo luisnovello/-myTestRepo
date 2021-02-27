@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board{
+    display: flex;
+    box-sizing: border-box;
+    height: 450px;
+    width: 450px;
+    flex-wrap: wrap;
+    
+}
+.cell{
+    box-sizing: border-box;
+    flex-basis: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid black; */
+
+}
+.cell:nth-child(3n+2){
+    border-left:1px solid rgb(216, 38, 38);
+    border-right:1px solid rgb(216, 38, 38);
+}
+.cell:nth-child(n+4):nth-child(-n+6){
+    border-top:1px solid rgb(110, 41, 173);
+    border-bottom:1px solid rgb(110, 41, 173) ;
+}
+
+

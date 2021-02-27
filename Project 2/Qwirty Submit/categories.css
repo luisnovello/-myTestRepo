@@ -1,0 +1,24 @@
+main{
+    display: flex;
+}
+.categories{
+    flex: 0 0 275px;
+    display: flex;
+    flex-direction: column;
+}
+.cat{
+    text-decoration: none;
+    font-family: "Dosis";
+    font-size: 20px;
+    text-align: center;
+    text-transform:uppercase;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    background-color: #255;
+    color: white;
+    padding: 1REM;
+}
+.cat:hover{
+    box-shadow: 0 2px 5px -2px black;
+}
